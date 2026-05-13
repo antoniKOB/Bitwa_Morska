@@ -8,7 +8,6 @@ def get_idx(text):
     text = text.lower()
     tab = letters = ["a","b","c","d","e","f","g","h","i","j"]
     letters = list(text)
-    print(len(letters))
     if len(letters) ==0:
         i = 0
         j = 0
